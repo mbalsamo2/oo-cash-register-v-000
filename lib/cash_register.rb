@@ -13,7 +13,7 @@ class CashRegister
     binding.pry
     current_total = self.total
     self.total += price * quantity
-    self.items << item
+    quantity.times {self.items << item}
   end
 
   def apply_discount
