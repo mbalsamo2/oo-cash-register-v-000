@@ -7,7 +7,7 @@ class CashRegister
     @total = 0
   end
 
-  def self.add_item(item)
+  def self.add_item
     title = self.item[0]
     price = self.item[1]
     @total += price
