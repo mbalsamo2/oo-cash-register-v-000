@@ -10,6 +10,7 @@ class CashRegister
   end
 
   def add_item
+    binding.pry
     title = self.item[0]
     price = self.item[1]
     @total += price
