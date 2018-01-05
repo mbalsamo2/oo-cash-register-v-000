@@ -17,7 +17,11 @@ class CashRegister
 
   end
 
-  def apply_discount
+  def apply_discount(item, price)
+    if self.discount != 0
+      new_price = price - self.discount
+      puts "After the discount, the total comes to #{new_price}."
+    end  
   end
 
   def items
