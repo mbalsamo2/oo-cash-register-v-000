@@ -20,7 +20,7 @@ class CashRegister
     # binding.pry
     if self.discount != 0
       self.total = self.total - self.discount
-       "After the discount, the total comes to #{self.total}."
+       "After the discount, the total comes to $#{self.total}."
     else
       "There is no discount to apply."
     end
