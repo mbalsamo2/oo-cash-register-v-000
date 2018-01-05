@@ -20,9 +20,9 @@ class CashRegister
     binding.pry
     if self.discount != 0
       new_price = self.total - self.discount
-      puts "After the discount, the total comes to #{new_price}."
+       "After the discount, the total comes to #{new_price}."
     else
-      puts "There is no discount to apply."
+      "There is no discount to apply."
     end
   end
 
