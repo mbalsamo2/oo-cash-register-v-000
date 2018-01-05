@@ -19,7 +19,7 @@ class CashRegister
   def apply_discount
     # binding.pry
     if self.discount != 0
-      new_price = self.total - self.discount
+      self.total = self.total - self.discount
        "After the discount, the total comes to #{new_price}."
     else
       "There is no discount to apply."
