@@ -9,7 +9,7 @@ class CashRegister
     @items = []
   end
 
-  def add_item(item, price, quantity = 0)
+  def add_item(item, price, quantity = 1)
     # binding.pry
     current_total = @total
     @total += price
